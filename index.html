@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jankenpon GDSC Project</title>
+        <link rel="icon" type="image/png" href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_16,q_auto:good,w_16/v1/gcs/platform-data-dsc/contentbuilder/favicon.png" sizes="16x16">
+        <meta name="description" content="GDSC Workshop, Front End Development">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1 class="title-red" id="title-player">Pilihan Pemain :</h1>
+            <img src="pokeball.png" id="image-player" height="64" alt="">
+            <div>
+                <button onclick="handleClick('Charmander')">Charmander</button>
+                <button onclick="handleClick('Bulbasaur')">Bulbasaur</button>
+                <button onclick="handleClick('Squirtle')">Squirtle</button>
+            </div>
+            <h1 class="result-box" id="result"> </h1>
+        </div>
+        <div class="center">
+            <h1 class="title-blue" id="title-enemy">Pilihan Lawan :</h1>
+            <img src="pokeball.png" id="image-enemy" height="64" alt="">
+
+            <br>
+            <hr>
+
+        <p>Source Repository : </p><a href="https://github.com/hecterbonha/gdsc-fe" target="_blank">Here</a>
+        <br>
+        </div>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
